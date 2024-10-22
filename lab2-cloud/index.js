@@ -14,12 +14,12 @@ AWS.config.update({
 
 const s3 = new AWS.S3();
 
+uploadFile('C:/Users/U-ser/Downloads/testS3.txt', 'myfirstbucketvath');
+// downloadFile("file1.txt","myfirstbucketvath");
+// deleteFile( "file1.txt","myfirstbucketvath" );
+
 // Call the deleteFile function
 // uploadFile('file path', 'bucket name');
-// downloadFile('file path', 'bucket name');
+downloadFile('aws_test.txt', 'myfirstbucketvath');
 // deleteFile('file path', 'bucket name');
 
-//Put this in your env
-// AWS_ACCESS_KEY_ID=
-// AWS_SECRET_ACCESS_KEY=
-// AWS_REGION=
